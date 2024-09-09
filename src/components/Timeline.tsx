@@ -8,58 +8,86 @@ import '../assets/styles/Timeline.scss'
 
 function Timeline() {
   return (
-    <div id="history">
+    <div id="coursework">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Relevant Coursework</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Data Structures and Algorithms</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Christian Univeristy</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Fundamental data structures, including linear lists, trees, graphs, and arrays, along with techniques for sorting, searching, and representing these structures in programming languages.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Discrete Mathematics II</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Christian Univeristy</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Advanced topics such as combinatorics, recurrence relations, equivalence relations, and graph theory, focusing on solving problems and writing proofs related to these discrete mathematical concepts.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Linux/UNIX System Administration</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Christian Univeristy</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+            Manage and troubleshoot Linux and UNIX systems, covering system design, installation, file systems, BASH shell, user and process management, backup/restore procedures, and common administrative tasks through both lectures and hands-on lab work.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="Spring 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Techniques in Programming</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Christian Univeristy</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+            Fundamental concepts including arrays, ArrayLists, GUI design, socket programming, client-server architecture, and recursion, which together build a strong foundation for developing versatile and efficient software solutions.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Spring 2024"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Linear Algebra</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Christian Univeristy</h4>
+            <p>
+            Vector spaces, linear transformations, matrices, and systems of linear equations, which provide the foundational tools for solving complex problems in various fields of mathematics and science.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Fall 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Introduction to Programming</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Christian Univeristy</h4>
+            <p>
+            Gained foundational knowledge in binary and hexadecimal systems, bitwise operations, data types, object-oriented programming principles, and core Java syntax and concepts.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
