@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mattstaff0.github.io/static/css/main.a9af5ba0.css",
+    "main.js": "/mattstaff0.github.io/static/js/main.5b088ae3.js",
+    "static/js/453.b05d8aa5.chunk.js": "/mattstaff0.github.io/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/mattstaff0.github.io/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/chess.png": "/mattstaff0.github.io/static/media/chess.988fdbdfae4d6f62a322.png",
+    "static/media/bg-dark.png": "/mattstaff0.github.io/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/fitness.png": "/mattstaff0.github.io/static/media/fitness.4d9d1391662549a9c3d9.png",
+    "static/media/HEADSHOT.JPG": "/mattstaff0.github.io/static/media/HEADSHOT.95932bf77b3d365a5298.JPG",
+    "static/media/task.png": "/mattstaff0.github.io/static/media/task.1708defc4a8aea16cee4.png",
+    "static/media/notes1.png": "/mattstaff0.github.io/static/media/notes1.a9d23cb62f563c1b0b39.png",
+    "index.html": "/mattstaff0.github.io/index.html",
+    "main.a9af5ba0.css.map": "/mattstaff0.github.io/static/css/main.a9af5ba0.css.map",
+    "main.5b088ae3.js.map": "/mattstaff0.github.io/static/js/main.5b088ae3.js.map",
+    "453.b05d8aa5.chunk.js.map": "/mattstaff0.github.io/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9af5ba0.css",
+    "static/js/main.5b088ae3.js"
+  ]
+}
